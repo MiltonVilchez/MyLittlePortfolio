@@ -1,9 +1,6 @@
 #FotoPerfil {
-  height: 18rem;
-  width: 18rem;
-  border-radius: 360px;
-  border-style: solid;
-  border-width: 2px;
+  height: 100%;
+  width: 100%;
 }
 
 #divFotoP {
@@ -14,5 +11,9 @@
   display: block;
   position: relative;
   margin-right: 3rem;
+}
+
+#descripcion {
+  background: red;
 }
 /*# sourceMappingURL=estilos.css.map */

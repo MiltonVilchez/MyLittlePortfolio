@@ -20,87 +20,42 @@
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-light bg-light">
-            <div class="row container-md">
-                <div class=" col-1">
-                    <img id="imgLogo" src="..." alt="Logo.png">
-                </div>
-                <div class="col">
-                    <a class="navbar-brand" id="titulo" href="#">MyLittlePortafolio</a>
-                </div>
-            </div>
-
-        </nav>
-    </header>
-    <main>
+    <main class="container">
         <!--Seccion portada-->
-        <section>
-            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
-                        class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                        aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                        aria-label="Slide 3"></button>
+        <div style="height: 100%;background: grey;" class="w-100">
+            <div style="height: 100%;" class="row">
+                <!--Seccion descripcion-->
+                <div id="descripcion" class="col-sm-6 col-md-6 col-lg-7 align-self-center">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium distinctio quasi deleniti
+                        earum corrupti eos molestiae minus, iste nesciunt saepe fuga odio, necessitatibus nemo quos
+                        animi, esse accusantium neque possimus?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti nobis nisi, ea necessitatibus
+                        eaque libero non aperiam corrupti similique magnam unde nihil perferendis consectetur tempore
+                        doloribus, harum dolore quasi illum.</p>
                 </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img height="250px"
-                            src="https://res.cloudinary.com/drdadalne/image/upload/v1642480302/Portada1_nbjxhg.jpg"
-                            class="w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img height="250px"
-                            src="https://res.cloudinary.com/drdadalne/image/upload/v1642479636/Portada2_i2s4gl.jpg"
-                            class="w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img height="250px"
-                            src="https://res.cloudinary.com/drdadalne/image/upload/v1642480837/Portada3_eg9tva.jpg"
-                            class="w-100" alt="...">
-                    </div>
+                <!--Seccion FotoPerfil-->
+                <div class="col-sm col-md offset-md col-lg offset-lg align-self-center">
+                    <img id="FotoPerfil"
+                        src="https://res.cloudinary.com/drdadalne/image/upload/v1642480917/Milton_qx08qi.jpg"
+                        alt="FotoPerfil.png">
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
             </div>
-        </section>
-        <!--Foto perfil-->
-        <div id="divFotoP">
-            <img class="img-responsive mx-auto img-thumbnail " id="FotoPerfil"
-                src="https://res.cloudinary.com/drdadalne/image/upload/v1642480917/Milton_qx08qi.jpg"
-                alt="FotoPerfil.png">
         </div>
-        <!--Seccion descripcion-->
-        <div style="border-color: blue; border-style: solid;">
-            <section>
-                <article>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae debitis at dolor alias adipisci!
-                    Quod reiciendis fugit iure, minus libero deserunt dolores expedita, dolorem inventore molestiae ab
-                    aperiam, veritatis asperiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
-                    laboriosam facere officiis nemo nesciunt quo sequi culpa ipsum soluta voluptate nihil ullam eaque,
-                    saepe modi, aperiam magnam asperiores autem temporibus?
-                </article>
-            </section>
-        </div>
+
         <!--seccion tecnologias -->
-        <section>
-            <article>
-                <h5>Technologies:</h5>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique dolore voluptatibus error. Quae,
-                    nostrum? Assumenda eum porro labore veniam. Tempora ex culpa molestiae eum quod, rerum officiis
-                    fugit obcaecati maxime?</p>
-            </article>
-        </section>
+        <div style="height: 100%;background: cornflowerblue;">
+            <h5>I have worked with:</h5>
+            <div class="d-flex justify-content-evenly">
+                <label for="">1</label>
+                <label for="">2</label>
+                <label for="">3</label>
+                <label for="">4</label>
+                <label for="">5</label>
+                <label for="">6</label>
+                <label for="">7</label>
+            </div>
+        </div>
+
         <!--seccion proyectos -->
         <section>
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
