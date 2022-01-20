@@ -16,4 +16,14 @@
 #descripcion {
   background: red;
 }
+
+#tecLabel {
+  border-style: solid;
+  border-radius: 150px;
+  background: gray;
+  display: inline-block;
+  padding: 5px;
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
 /*# sourceMappingURL=estilos.css.map */
