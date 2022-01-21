@@ -1,6 +1,9 @@
+$height:100%;
+$width:100%;
+
 #FotoPerfil{
-    height: 100%;
-    width: 100%;
+    height: $height;
+    width: $width;
 }
 
 #divFotoP{
@@ -24,4 +27,13 @@
     padding: 5px;
     margin-left: 1rem;
     margin-top: 1rem;
+}
+
+#sec{
+    height: $height;
+}
+
+#imagen{
+    height: 78%;
+    width: $width;
 }

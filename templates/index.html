@@ -22,8 +22,8 @@
 <body>
     <main class="container">
         <!--Seccion portada-->
-        <div style="height: 100%;background: grey;" class="w-100">
-            <div style="height: 100%;" class="row">
+        <div style="background: grey;" id="sec" class="w-100">
+            <div id="sec" class="row">
                 <!--Seccion descripcion-->                
                 <div id="descripcion" class="col-sm-6 col-md-6 col-lg-7 align-self-center">
                     <h1>HELLO</h1>
@@ -44,7 +44,7 @@
         </div>
 
         <!--seccion tecnologias -->
-        <div style="height:100%;background: cornflowerblue;">
+        <div id="sec" style="background: cornflowerblue;">
             <h5>I have worked with:</h5>
             <div>
                 <label id="tecLabel">Python</label>
@@ -55,7 +55,6 @@
                 <label id="tecLabel">JQuery</label>
                 <label id="tecLabel">AngularJS</label>
                 <label id="tecLabel">Vue.js</label>
-                <label id="tecLabel">Java</label>
                 <label id="tecLabel">C#</label>
                 <label id="tecLabel">C/C++</label>
                 <label id="tecLabel">Html</label>
@@ -71,12 +70,12 @@
         </div>
 
         <!--seccion proyectos -->
-        <section>
+        <div>
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="card d-block w-100" style="width: 18rem;margin: 0;">
-                            <img src="https://res.cloudinary.com/drdadalne/image/upload/v1642479636/Portada2_i2s4gl.jpg"
+                            <img id="imagen" src="https://res.cloudinary.com/drdadalne/image/upload/v1642479636/Portada2_i2s4gl.jpg"
                                 class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Card title</h5>
@@ -88,7 +87,7 @@
                     </div>
                     <div class="carousel-item">
                         <div class="card d-block w-100" style="width: 18rem;margin: 0;">
-                            <img src="https://res.cloudinary.com/drdadalne/image/upload/v1642479636/Portada2_i2s4gl.jpg"
+                            <img id="imagen" src="https://res.cloudinary.com/drdadalne/image/upload/v1642479636/Portada2_i2s4gl.jpg"
                                 class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Card title</h5>
@@ -111,31 +110,28 @@
                     </div>
                     -->
                 </div>
-                <button style="height: 20rem;" class="carousel-control-prev" type="button"
+                <button style="height: 35rem;" class="carousel-control-prev" type="button"
                     data-bs-target="#carouselExampleControls" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
-                <button style="height: 20rem;" class="carousel-control-next" type="button"
+                <button style="height: 35rem;" class="carousel-control-next" type="button"
                     data-bs-target="#carouselExampleControls" data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
-        </section>
+        </div>
+
         <!--Seccion contacto-->
-        <section>
-            <article>
+        <div style="border-style: solid;border-width: 2px;background: pink;" id="sec">
+            <div>
                 <h5>contact information</h5>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat ab molestiae dolorem id nulla
                     aliquid, architecto ratione fugit nesciunt tenetur est, culpa nobis eum tempora ullam corporis,
                     magnam nam provident.</p>
-            </article>
-        </section>
+            </div>
+        </div>
     </main>
 </body>
-<script>
-
-</script>
-
 </html>
