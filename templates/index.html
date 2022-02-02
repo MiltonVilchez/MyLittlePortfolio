@@ -15,6 +15,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
         integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
         crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="../static/style/estilos.css">
     <title>MyPortfolio - Milton</title>
 </head>
@@ -24,7 +27,7 @@
         <!--Seccion portada-->
         <div style="background: grey;" id="sec" class="w-100">
             <div id="sec" class="row">
-                <!--Seccion descripcion-->                
+                <!--Seccion descripcion-->
                 <div id="descripcion" class="col-sm-6 col-md-6 col-lg-7 align-self-center">
                     <h1>HELLO</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium distinctio quasi deleniti
@@ -65,7 +68,7 @@
                 <label id="tecLabel">PostgreSQL</label>
                 <label id="tecLabel">SQLite</label>
                 <label id="tecLabel">MySQL</label>
-                <label id="tecLabel">Git</label>                
+                <label id="tecLabel">Git</label>
             </div>
         </div>
 
@@ -75,40 +78,62 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="card d-block w-100" style="width: 18rem;margin: 0;">
-                            <img id="imagen" src="https://res.cloudinary.com/drdadalne/image/upload/v1642479636/Portada2_i2s4gl.jpg"
-                                class="card-img-top" alt="...">
+                            <img id="imagen"
+                                src="https://res.cloudinary.com/drdadalne/image/upload/v1643766321/Library50_euuamo.png"
+                                class="card-img-top" alt="library.png">
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <h5 class="card-title">Library50x</h5>
+                                <p class="card-text">This was one of my first websites. Where I used the Google Books
+                                    API to create a search engine for books based on their ISBN, title, or authors. Go
+                                    ahead and sign up and log in.</p>
+                                <a href="#" class="btn btn-primary">Visit website <i
+                                        class="fas fa-chevron-right"></i></a>
                             </div>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="card d-block w-100" style="width: 18rem;margin: 0;">
-                            <img id="imagen" src="https://res.cloudinary.com/drdadalne/image/upload/v1642479636/Portada2_i2s4gl.jpg"
-                                class="card-img-top" alt="...">
+                            <img id="imagen"
+                                src="https://res.cloudinary.com/drdadalne/image/upload/v1643766321/Chatten_bnnrnk.png"
+                                class="card-img-top" alt="chatten.png">
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <h5 class="card-title">Chatten</h5>
+                                <p class="card-text">My first messaging application with Socket.io. The application
+                                    allows you to register with your name or nickname and then create chat rooms and
+                                    talk with your friends and other functions. Inspired by <a
+                                        href="https://slack.com/">Slack</a>.</p>
+                                <a href="#" class="btn btn-primary">Visit website <i
+                                        class="fas fa-chevron-right"></i></a>
                             </div>
                         </div>
                     </div>
-                    <!--
-                        <div class="carousel-item">
+                    <div class="carousel-item">
                         <div class="card d-block w-100" style="width: 18rem;margin: 0;">
-                            <img src="https://res.cloudinary.com/drdadalne/image/upload/v1642479636/Portada2_i2s4gl.jpg" class="card-img-top" alt="...">
+                            <img src="https://res.cloudinary.com/drdadalne/image/upload/v1643766321/Pinoccio2_gifdhl.png"
+                                class="card-img-top" alt="pinoccio.png">
                             <div class="card-body">
-                              <h5 class="card-title">Card title</h5>
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <h5 class="card-title">Pinocchios's w50 Pizza</h5>
+                                <p class="card-text">Harvard Web50 Project. About ordering at a pizza shop located in
+                                    Cambridge. Built with django and SQLite.</p>
+                                <a href="#" class="btn btn-primary">Visit website <i
+                                        class="fas fa-chevron-right"></i></a>
                             </div>
-                          </div>
+                        </div>
                     </div>
-                    -->
+                    <div class="carousel-item">
+                        <div class="card d-block w-100" style="width: 18rem;margin: 0;">
+                            <img src="https://res.cloudinary.com/drdadalne/image/upload/v1643766321/Captura_de_Pantalla_2022-02-01_a_la_s_19.40.52_bt3p0y.png"
+                                class="card-img-top" alt="Godangels.png">
+                            <div class="card-body">
+                                <h5 class="card-title">God's Angels</h5>
+                                <p class="card-text">In this project I thought of helping any Nicaraguan person who does
+                                    not know a nurse and who needs care or a hospital consultation.</p>
+                                <a href="#" class="btn btn-primary">Visit website <i
+                                        class="fas fa-chevron-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
                 <button style="height: 35rem;" class="carousel-control-prev" type="button"
                     data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -134,4 +159,5 @@
         </div>
     </main>
 </body>
+
 </html>
